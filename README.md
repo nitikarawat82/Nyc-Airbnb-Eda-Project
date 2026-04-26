@@ -6,59 +6,62 @@ This project conducts Exploratory Data Analysis (EDA) on Airbnb listings in New 
 
 <img width="1828" height="860" alt="AirBnbImage" src="https://github.com/user-attachments/assets/e949444c-feb4-40d5-ac03-629118bfd371" />
 
-📊 Airbnb NYC EDA Project
-🎯 Objective
-Analyze Airbnb data to understand prices, room types, and availability
-Study host behavior and listing patterns
-Identify unusual (outlier) prices
-Provide useful insights for guests and hosts
+# 📊 Airbnb NYC EDA Project
 
+## 🎯 Objective
+- Analyze Airbnb data to understand prices, room types, and availability  
+- Study host behavior and listing patterns  
+- Detect unusual (outlier) prices  
+- Provide insights for guests and hosts  
 
-📁 Dataset
-Contains 20,765 rows and 22 columns
-Key columns:
-id – unique listing ID
-name – listing title
-host_name – host name
-neighbourhood_group – location (borough)
-latitude / longitude – location coordinates
-price – price per night
-room_type – type of room
-reviews_per_month – average reviews
-availability_365 – availability in a year
+---
 
-⚙️ Steps Performed
-1. Data Cleaning
-Handled missing values
-Fixed data types
-Removed extreme price values (outliers)
-2. Exploratory Data Analysis (EDA)
-Room Types
-Most listings are Entire home/apartment
-Location Analysis
-Manhattan has highest prices
-Brooklyn comes next
-Price Distribution
-Most listings fall between $50 – $300
-Availability
-Listings with higher availability often have more reviews
-Hosts
-Some hosts manage multiple listings
-3. Visualization
-Bar charts → room types & locations
-Histograms → price distribution
-Boxplots → outliers
-Heatmaps → correlation between features
-Pairplots → relationships between variables
-🔍 Key Insights
-Manhattan is the most expensive area
-Entire homes are costlier than private/shared rooms
-Few listings have extremely high prices (outliers)
-Budget options are mostly private rooms
-Some hosts operate multiple listings (professional hosts)
-🧠 Conclusion
+## 📁 Dataset
+- Total records: 20,765  
+- Total features: 22  
 
-This analysis helps understand Airbnb trends in NYC and provides insights for:
+### Important Columns:
+- id – unique listing ID  
+- name – listing title  
+- host_name – host name  
+- neighbourhood_group – location (borough)  
+- latitude / longitude – location coordinates  
+- price – price per night  
+- room_type – type of room  
+- reviews_per_month – average reviews  
+- availability_365 – availability in a year  
 
-Guests → finding affordable stays
-Hosts → pricing and listing strategies
+---
+
+## ⚙️ Steps Performed
+
+### 1. Data Cleaning
+- Handled missing values  
+- Fixed data types  
+- Removed extreme price values  
+
+### 2. Exploratory Data Analysis (EDA)
+- Analyzed room types distribution  
+- Compared prices across neighborhoods  
+- Studied availability trends  
+- Checked host listing patterns  
+
+### 3. Data Visualization
+- Bar charts for room types and locations  
+- Histograms for price distribution  
+- Boxplots for outliers  
+- Heatmaps for correlation  
+
+---
+
+## 🔍 Key Insights
+- Manhattan has the highest prices  
+- Entire homes are more expensive  
+- Most listings are priced between $50 – $300  
+- Private rooms are budget-friendly  
+- Some hosts manage multiple listings  
+
+---
+
+## 🧠 Conclusion
+This project helps understand Airbnb trends in NYC and provides useful insights for better decision-making.
