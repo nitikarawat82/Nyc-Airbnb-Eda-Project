@@ -55,13 +55,19 @@ This project conducts Exploratory Data Analysis (EDA) on Airbnb listings in New 
 ---
 
 ## 🔍 Key Insights
-- Manhattan has the highest prices  
-- Entire homes are more expensive  
-- Most listings are priced between $50 – $300  
-- Private rooms are budget-friendly  
-- Some hosts manage multiple listings  
+- Manhattan has the highest prices, followed by Brooklyn
+- Entire homes/apartments are more expensive than private/shared rooms
+- Most listings are priced between $50 – $300
+- Private rooms are budget-friendly options
+- Strong positive correlation between number_of_reviews and reviews_per_month
+- Listings with more beds tend to have higher prices
+- Most features show weak correlation with each other
+- Some listings have very high prices (outliers) and were handled
+- Listings with higher availability often receive more reviews
+- Some hosts manage multiple listings, indicating professional hosting
 
 ---
 
 ## 🧠 Conclusion
+These insights help guests choose better stays and help hosts optimize pricing. 
 This project helps understand Airbnb trends in NYC and provides useful insights for better decision-making.
